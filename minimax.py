@@ -9,7 +9,7 @@ class Node: # THE GOAL TREE OF THIS ALGORITHM WILL BE MADE OF NODES
         self.i_sticksRemaining = i_sticksRemaining #    STORES THE STICKS REMAINING AT THIS NODE
         self.i_value = i_value #    IF IT IS A WINNING MOVE OF LOOSING MOVE THIS WILL STORE -INFINITY OR +INFINITY
         self.children = [] #    STORES THE TWO BRANCHES OF THIS NODE INCLUDING EACH AND EVERY SINGLE BRANCH OF THOSE NODES
-        print("\t\t"*(abs(5-i_depth)), (i_depth, i_playernum, i_sticksRemaining, i_value))  # UNCOMMENT THIS TO SEE THE GOAL TREE 
+        #print("\t\t"*(abs(5-i_depth)), (i_depth, i_playernum, i_sticksRemaining, i_value))  # UNCOMMENT THIS TO SEE THE GOAL TREE 
         self.CreateChildren() # THIS CLASS FUNCTION WILL CREATE THE BRANCHES OF THIS NODE WHICH ARE AT THE LOWER DEPTHS
 
 
